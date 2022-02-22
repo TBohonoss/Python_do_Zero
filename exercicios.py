@@ -4,7 +4,7 @@ n = 1
 P = 0
 I = 0
 while n <= 10:
-    a = int(input())
+    a = int(input("Digite um número de 1 a 10: "))
     n += 1
     if a % 2 == 0:
         a = P
