@@ -1,17 +1,7 @@
-# Calculando com dois números a soma (+), subtração(-), multiplicação(*) e divisão(/) da operação. 
+# Contando de 1 até 10 usando a instrução while 
 
-a = int(input("Primeiro número:"))
-b = int(input("Primeiro número:"))
-operação = input("Digite a operação a relizar (+,-,* ou /):")
-if operação == "+":
-    resultado = a + b
-elif operação == "-":
-    resultado = a - b
-elif operação == "*":
-    resultado = a * b
-elif operação == "/":
-    resultado = a / b
-else:
-    print("Operação inválida!")
-    resultado = 0
-print("Resultado: ", resultado)
+n = 1
+while n <= 10:
+    print(n)
+    n += 1
+
