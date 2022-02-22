@@ -1,6 +1,7 @@
-# Atribuindo valores das váriaveis a e b
+# Atribuindo valores das váriaveis a, b e c
 a = 2
 b = 5
+c = 5
 
-# Imprimindo resultado
-print(5*a*3*b)
+# Imprimindo o resultado
+print(a+b+c)
