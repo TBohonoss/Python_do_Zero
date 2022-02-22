@@ -1,3 +1,6 @@
-# Imprimindo o meu nome completo
+# Atribuindo valores das váriaveis a e b
+a = 2
+b = 5
 
-print("Thiago Bohonos")
+# Imprimindo resultado
+print(5*a*3*b)
