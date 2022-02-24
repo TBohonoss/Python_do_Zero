@@ -1,18 +1,10 @@
-# Contando quantos números pares e ímpares existentes entre 1 e 10 bem como a soma deles usando a instrução while 
+# Calcular as raízes de uma equação do 2° Grau
 
-n = 1
-P = 0
-I = 0
-while n <= 10:
-    a = int(input("Digite um número de 1 a 10: "))
-    n += 1
-    if a % 2 == 0:
-        a = P
-        P += 1
-    else: 
-        a = I
-        I += 1
-print("A quantidade de números pares: ", P)
-print("A quantidade de números ímpares: ", I)
+a = int(input("Coeficiente de a: "))
+b = int(input("Coeficiente de b: "))
+c = int(input("Coeficiente de c: "))
+delta = (b**2 - 4*a*c)
+x1 = (-b + delta**(1/2)) / (2*a)
+x2 = (-b - delta**(1/2)) / (2*a)
 
-
+print("Raízes: ",x1," e ",x2)
