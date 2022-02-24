@@ -1,12 +1,18 @@
-# Calcular as raízes de uma equação do 2° Grau usando o módulo math 
+a = "Nome: João"
+b = " da Silva"
+c = "idade: 25"
+d = "telefone: (11)"
+e = "3333-3333"
+f = "cidade: São Paulo"
 
-import math
+# Imprimindo o nome completo em uma única linha
+print(a + b)
 
-a = int(input("Coeficiente de a: "))
-b = int(input("Coeficiente de b: "))
-c = int(input("Coeficiente de c: "))
-delta = (b**2 - 4*a*c)
-x1 = (-b + math.sqrt(delta)) / (2*a)
-x2 = (-b - math.sqrt(delta)) / (2*a)
+# Imprimindo o telefone com DDD em uma única linha
+print(d + e)
 
-print("Raízes: ",x1," e ",x2)
+# Imprimindo a idade
+print(c)
+
+# Imprimindo a cidade
+print(f)
