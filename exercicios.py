@@ -1,13 +1,9 @@
-# Escrevendo uma função chamada right_justify, que receba uma string chamada s como parâmetro 
-# e exiba a string com espaços suficientes à frente para que a última letra da string esteja na coluna 70 da tela:
-string = "s"
+# Chamando a função duas vezes, passando o valor como um argumento
+def do_twice(func, arg):
+    func(arg)
+    func(arg)
 
-def right_justify(string):
-    i = 1
-    j = 70 - len(string)
-    while i<= j:
-        string = " " + string
-        i += 1
-    return print(string)
+def print_valor(arg):
+    print(arg)
 
-right_justify(string)
+do_twice(print, 'spam')
